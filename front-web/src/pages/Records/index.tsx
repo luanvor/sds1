@@ -6,7 +6,7 @@ import { RecordsResponse } from './types';
 import Pagination from './Pagination';
 import Filters from '../../componentes/Filters';
 
-const BASE = 'http://localhost:8080';
+const BASE = 'https://sds1-luan.herokuapp.com';
 
 const Records = () => {
     const [ recordsResponse, setRecordsResponse ] = useState<RecordsResponse>();
